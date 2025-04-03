@@ -239,13 +239,22 @@ ul li {
   transform: rotate(0deg);
 }
 
-.circle[data-percentage="100"]::before {
+.circle[data-percentage="100"]::before { 
+  clip-path:none;
   transform: rotate(360deg); 
 }
 
 .circle[data-percentage="90"]::before {
+ 
   transform: rotate(324deg); 
 }
+
+.circle[data-percentage="75"]::before {
+  transform: rotate(270deg); 
+}
+
+
+
 
 .projects {
   text-align: center;
@@ -397,7 +406,7 @@ footer{
   .menu{
     display:block;
   }
-body{
+body,html{
   font-size: 1rem;
   overflow-x:hidden;
 }
