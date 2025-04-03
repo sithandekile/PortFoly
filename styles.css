@@ -346,7 +346,8 @@ footer{
     align-items: center;
     box-shadow: 0 4px 8px #008080;
     height: 60px;
-    padding-left: 2%;
+    padding-left: 1~%;
+    margin: auto;
   }
   .menu {
     display: block;
@@ -357,12 +358,12 @@ footer{
     text-align: center;
   }
 
-  .about {
+  /* .about {
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
+    align-items: center;
     margin-bottom: 20%;
-  }
+  } */
 
   .about .image img{
     width:100%;
@@ -487,7 +488,7 @@ body,html{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     justify-content:center;
-    animation: no;
+    animation: none;
   }
   }
 
