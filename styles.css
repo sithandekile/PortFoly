@@ -413,7 +413,10 @@ body,html{
 
   .about{
     text-align:center;
-
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    padding: 10px;
     
   }
   .about .image img{
