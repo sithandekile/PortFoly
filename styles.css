@@ -288,6 +288,7 @@ ul li {
   justify-content: center;
   align-content: center;
   gap:15%;
+  margin:auto 20px;
 }
 
 input, textarea {
@@ -346,13 +347,16 @@ footer{
     align-items: center;
     box-shadow: 0 4px 8px #008080;
     height: 60px;
-    padding-left: 1%;
-    margin: auto;
+    margin-left: 1%;
+    ;
   }
   .menu {
     display: block;
   }
+body,html{
+  overflow-x: hidden;
 
+}
   .hero{
     padding: 80px 20px;
     text-align: center;
@@ -375,7 +379,7 @@ footer{
     margin-top: 20px;
   }
 
-  /* .contact-info{
+   /* .contact-info{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -383,12 +387,12 @@ footer{
 
   .contact-info form{
     margin-left:15%;
-  } */
+  } *
 
-  /* .skills{
+  .skills{
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:center; 
   } */
 }
 
