@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar-sect">
+      <!-- Portfolio Logo -->
+      <div class="port">
+        <h1>PortFolio</h1>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="navbar">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile Menu Button -->
+      <div class="menu">Menu</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, It's Me, <br><span class="name">Sithandekile Ndhlovu</span></h1>
+    <p>A frontend software developer, based in Johannesburg (South Africa)</p>
+    
+    <!-- Contact Button -->
+    <button class="glowing-btn">
+      <a href="https://wa.me/27670118494" target="_blank" style="text-decoration: none; color:#008080">
+        Contact
+      </a>
+    </button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about">
+      <!-- Profile Image and Social Links -->
+      <div class="image">
+        <img src="./assets/thande2.png" alt="My picture">
+        <button id="facebook"><a href="#">Facebook</a></button>
+        <button id="github">
+          <a href="https://github.com/sithandekile">GitHub</a></button>
+        <button id="linkedin">
+          <a href="https://www.linkedin.com/in/sithandekile-ndhlovu-478b8b1a9" target="_blank">LinkedIn</a>
+        </button>
+      </div>
+
+      <!-- About Me Description -->
+      <div class="aboutme">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I am a passionate and dedicated front-end developer with hands-on experience gained through intensive bootcamps and hackathons.
+            I specialize in creating responsive, user-friendly interfaces using modern technologies like HTML5, CSS3, JavaScript, React.js, and Tailwind CSS.
+          </p>
+        </div>
+
+        <!-- Interests Section -->
+        <div>
+          <h2>My Interests</h2>
+          <p>
+            Creating websites from scratch gives me joy as I watch my puzzle pieces come to life.
+            I am interested in exploring the intersection of AI and web development to create smarter, more user-friendly experiences.
+          </p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="education">
+          <h2>Education</h2>
+          <h3>2024/04 - 2024/07</h3>
+          <h4>Africa Agility Foundation</h4>
+          <p>Certificate in Frontend Web Development</p>
+
+          <h3>2024/09 - 2024/12</h3>
+          <h4>iMentorU Foundation</h4>
+          <p>Certificate in Web Designing</p>
+
+          <h3>Currently</h3>
+          <p>PLP Scholarship</p>
+
+          <!-- Download CV Button -->
+          <button>
+            <a href="./assets/myResume.pdf" download target="_blank" class="glowing-btn" style="background-color: rgb(26,24,24);">
+              Download My CV
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>🛠️ Skills</h2>
+    <div class="skills">
+      <div class="skill-circle">
+        <div class="circle"><span>100%</span></div>
+        <p>HTML5</p>
+      </div>
+      <div class="skill-circle">
+        <div class="circle"><span>90%</span></div>
+        <p>CSS3</p>
+      </div>
+      <div class="skill-circle">
+        <div class="circle"><span>90%</span></div>
+        <p>TailwindCSS</p>
+      </div>
+      <div class="skill-circle">
+        <div class="circle"><span>75%</span></div>
+        <p>ES6 (JavaScript)</p>
+      </div>
+      <div class="skill-circle">
+        <div class="circle"><span>75%</span></div>
+        <p>ReactJs</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>🚀 My Projects</h2>
+    <div class="projects">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="./assets/landingP.png" alt="Landing Page">
+        <h3>🌟 Landing Page Website</h3>
+        <p>A dynamial styled landing page and responsive <br> Languages used are React.js & vite,and Tailwind Css.</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <a href="https://aa-collab-hub-pro-85dt.vercel.app/" target="_blank">
+          <img src="./assets/mentorh3rWeb.jpg" alt=" market place">
+        </a>
+        <h3>🛍️ Market-Place Website</h3>
+        <p>A fully interactive and responsive <br> Languages used are React.js & vite,and Tailwind Css</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        
+          <img src="./assets/jobbord.png"alt="Portfolio Website">
+        </a>
+        <h3>🌟 JobBoard Website</h3>
+        <p>A fully interactive and responsive <br> Languages used are React.js & vite,and Tailwind Css</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <div>
+        <p>📩 sthandie15@gmail.com</p>
+        <p>📞 +27766365311</p>
+        <p>📍 Johannesburg, South Africa</p>
+      </div>
+
+      <!-- Contact Form -->
+      <form>
+        <input type="text" placeholder="Enter Your Name">
+        <input type="email" placeholder="Enter Your Email">
+        <textarea placeholder=" Enter Your Message"></textarea>
+        <button class="glowing-btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Sithandekile Ndhlovu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
