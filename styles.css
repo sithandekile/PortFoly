@@ -379,21 +379,15 @@ body,html{
     margin-top: 20px;
   }
 
-   /* .contact-info{
+   .contact-info{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
   .contact-info form{
     margin-left:15%;
-  } *
-
-  .skills{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center; 
-  } */
+  } 
 }
 
 
