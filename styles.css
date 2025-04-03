@@ -346,7 +346,7 @@ footer{
     align-items: center;
     box-shadow: 0 4px 8px #008080;
     height: 60px;
-    padding-left: 1~%;
+    padding-left: 1%;
     margin: auto;
   }
   .menu {
@@ -358,12 +358,9 @@ footer{
     text-align: center;
   }
 
-  /* .about {
-    display:flex;
-    justify-content:center;
-    align-items: center;
+   .about {
     margin-bottom: 20%;
-  } */
+  } 
 
   .about .image img{
     width:100%;
@@ -378,7 +375,7 @@ footer{
     margin-top: 20px;
   }
 
-  .contact-info{
+  /* .contact-info{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -386,13 +383,13 @@ footer{
 
   .contact-info form{
     margin-left:15%;
-  }
+  } */
 
-  .skills{
+  /* .skills{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-  }
+  } */
 }
 
 
